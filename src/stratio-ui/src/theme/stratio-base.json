@@ -1,0 +1,23 @@
+{
+	"colors": {
+		"red": "transparentize(#ff0000, .5)",
+		"green": "transparentize(#00ff00, .5)",
+		"blue": "transparentize(#0000ff, .5)",
+		"black": "transparentize(#000, .5)",
+		"white": "transparentize(#fff, .5)"
+	},
+
+	"panel---background": "get-color(blue)",
+	"panel---color": "get-color(white)",
+	"panel---line-height": "get-line-height(double)",
+	"panel---font-size": "get-font-size(xxlarge)",
+	"panel---font-weight": "get-font-weight(normal)",
+	"panel---padding": "10px",
+
+	"panel__element---background": "get-color(black)",
+	"panel__element---color": "get-color(white)",
+	"panel__element---font-size": "get-font-size(normal)",
+
+	"panel__element--highlighted---background": "get-color(white)",
+	"panel__element--highlighted---color": "get-color(black)"
+}

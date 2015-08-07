@@ -1,0 +1,39 @@
+/* ====== media ====== */
+.media {
+  margin: 10px; }
+
+.media, .bd {
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+
+.media .img {
+  float: left;
+  margin-right: 10px; }
+
+.media .img img {
+  display: block; }
+
+.media .imgExt {
+  float: right;
+  margin-left: 10px; }
+
+.panel {
+  background: rgba(0, 0, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 2em;
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 10px; }
+
+.panel__element {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.6rem;
+  overflow: auto; }
+
+.panel__element--highlighted {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=stratio.ui.css.map */

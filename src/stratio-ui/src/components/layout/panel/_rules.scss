@@ -1,0 +1,20 @@
+.panel {
+	background: $panel---background;
+	color: $panel---color;
+	line-height: $panel---line-height;
+	font-size: $panel---font-size;
+	font-weight: $panel---font-weight;
+	padding: $panel---padding;
+}
+
+.panel__element {
+	background: $panel__element---background;
+	color: $panel__element---color;
+	font-size: $panel__element---font-size;
+	overflow: auto;
+}
+
+.panel__element--highlighted {
+	background: $panel__element--highlighted---background;
+	color: $panel__element--highlighted---color;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "test-concept",
+  "version": "1.0.0",
+  "description": "A test concept for creating a library of components for the UI of Stratio.",
+  "main": "app.js",
+  "authors": [
+    "Alex R Chies"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

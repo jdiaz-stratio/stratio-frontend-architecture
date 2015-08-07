@@ -1,0 +1,39 @@
+@import 'true';
+@import '../../src/base/settings/colors';
+@import '../../src/base/settings/typography';
+@import '../../src/base/helpers/colors';
+@import '../../src/base/helpers/typography';
+
+@include test-module('helpers/colors') {
+	@include test('get-color(red) from JSON settings') {
+		$test: get-color(red);
+		$expect: #ff0000;
+
+		@include assert-equal($test, $expect, 'red color get');
+	}
+
+	@include test('get-color(green) from JSON settings') {
+		$test: get-color(green);
+		$expect: #00ff00;
+
+		@include assert-equal($test, $expect, 'green color get');
+	}
+}
+
+@include test-module('helpers/typography') {
+	@include test('get-font-weight(bold) from JSON settings') {
+		$test: get-font-weight(bold);
+		$expect: bold;
+
+		@include assert-equal($test, $expect, 'bold weight get');
+	}
+
+	@include test('get-font-size(xxsmall) from JSON settings') {
+		$test: get-font-size(xxsmall);
+		$expect: xxsmall;
+
+		@include assert-equal($test, $expect, 'xxsmall size get');
+	}
+}
+
+@include report;

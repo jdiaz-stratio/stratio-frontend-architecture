@@ -1,0 +1,13 @@
+$panel---background: get-color(red) !default;
+$panel---color: get-color(black) !default;
+$panel---line-height: get-line-height(normal) !default;
+$panel---font-size: get-font-size(medium) !default;
+$panel---font-weight: get-font-weight(normal) !default;
+$panel---padding: 0 !default;
+
+$panel__element---background: get-color(blue) !default;
+$panel__element---color: get-color(green) !default;
+$panel__element---font-size: get-font-size(xxsmall) !default;
+
+$panel__element--highlighted---background: get-color(black) !default;
+$panel__element--highlighted---color: get-color(white) !default;
